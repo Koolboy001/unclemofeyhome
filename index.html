@@ -1,0 +1,376 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mofey Home Care LLC </title>
+
+    <!-- Link to the style.css -->
+    <link rel="stylesheet" type="text/css" href="./styles/style.css">
+
+    <!-- Link to the favicon -->
+    <link rel="icon" href="mofeylogo.png" type="image/png" sizes="32x32">
+
+    <!-- Link to add the Font Awesome icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css">
+
+    <!-- Link to add the boxicons -->
+    <link rel="stylesheet" href="https://unpkg.com/boxicons@latest/css/boxicons.min.css">
+</head>
+
+<body>
+
+    <header>
+        <a href="./index.html" class="logo">
+            <img src="mofeylogo.png" alt="">
+            <div class="text">
+                MHCL
+            </div>
+        </a>
+        <nav class="navbar">
+            <ul>
+                <li class="nav-item"><a href="./about.html">About</a></li>
+                <li class="nav-item"><a href="./services.html">Services</a></li>
+                <!-- <li class="nav-item"><a href="./volunteer.html">Volunteer</a></li>
+                <li class="nav-item"><a href="./resources.html">Resources</a></li> -->
+            </ul>
+        </nav>
+        <div class="contact">
+            <a href="./contact.html">
+                <i class="fa-solid fa-envelope"></i>
+                <div class="text">
+                    Contact
+                </div>
+            </a>
+        </div>
+        <div class="menu-icon">
+            <i class="fa-solid fa-bars menu-icon-i"></i>
+            <!-- <i class="fa-solid fa-x"></i> -->
+        </div>
+    </header>
+
+    <main class="home">
+        <div class="image-slider-container">
+            <div class="slider">
+                <div class="slide one active">
+                    <div class="texts">
+                        <div class="texts-header">
+                            Welcome to Mofey Home Care LLC
+                        </div>
+                        <div class="texts-description">
+                            Providing compassionate care and support for elderly individuals in Indianapolis. If you or your loved ones need assistance with daily tasks or are considering aged care options, we are here to help.
+                        </div>
+                        <div class="texts-button">
+                            <button>
+                                <a href="about.html">Learn More</a>
+                            </button>
+                        </div>
+                    </div>
+                    <div class="slide-image">
+                        <img src="./assets/illustrations/one.png" alt="image">
+                    </div>
+                </div>
+                <div class="slide two">
+                    <div class="texts">
+                        <div class="texts-header">
+                            Our Vision
+                        </div>
+                        <div class="texts-description">
+                            Our Vision is to value our patients and give them the attention and care that is safe, efficient, and of the highest quality, both now and in the future.
+                        </div>
+                        <div class="texts-header">
+                            Our Mission
+                        </div>
+                        <div class="texts-description">
+                            Founded to serve individuals with developmental disabilities, particularly those on the autism spectrum aged 18 and older transitioning from high school to community life, we focus on promoting independent living. We provide essential life and employment
+                            skills to help them lead purposeful and fulfilling lives.
+                        </div>
+                        <div class="texts-button">
+                            <button>
+                              <a href="about.html">Get Involved</a>
+                            </button>
+                        </div>
+                    </div>
+                    <div class="slide-image">
+                        <img src="./assets/illustrations/two.png" alt="image">
+                    </div>
+                </div>
+                <div class="slide three">
+                    <div class="texts">
+                        <div class="texts-header">
+                            Why Choose Us
+                        </div>
+                        <div class="texts-description">
+                            Mofey Home Care LLC is committed to providing quality care for the elderly in Indianapolis and the surrounding areas. We provide our services at home. Assisted living facilities, long term care facilities and Retirement homes.
+                        </div>
+                        <div class="texts-button">
+                            <button>
+                                <a href="services.html">Explore Services</a>
+                            </button>
+                        </div>
+                    </div>
+                    <div class="slide-image">
+                        <img src="./assets/illustrations/three.png" alt="image">
+                    </div>
+                </div>
+                <div class="slide four">
+                    <div class="texts">
+                        <div class="texts-header">
+                            Get in Touch
+                        </div>
+                        <div class="texts-description">
+                            Contact us today to learn more about our services, volunteer opportunities, or how you can support our mission to improve the quality of life for elderly homeless individuals in Indianapolis.
+                        </div>
+                        <div class="texts-button">
+                            <button>
+                                <a href="contact.html">Contact Us</a>
+                            </button>
+                        </div>
+                    </div>
+                    <div class="slide-image">
+                        <img src="./assets/illustrations/five.png" alt="image">
+                    </div>
+                </div>
+            </div>
+            <button class="prev" onclick="prevSlide()">&#10094;</button>
+            <button class="next" onclick="nextSlide()">&#10095;</button>
+            <div class="dots-container">
+                <span class="dot active" onclick="currentSlide(0)"></span>
+                <span class="dot" onclick="currentSlide(1)"></span>
+                <span class="dot" onclick="currentSlide(2)"></span>
+                <span class="dot" onclick="currentSlide(3)"></span>
+            </div>
+        </div>
+        <div class="our-value">
+            <span class="value"><center>Our Values</center></span>
+            <div class="our-values">
+
+                <span>Caring</span>
+                <span>Integrity</span>
+                <span>Mutual Respect</span>
+
+
+
+
+            </div>
+        </div>
+        <div class="our-featured-services">
+            <div class="header">
+                <div class="header-text">
+                    Our Featured Services
+                </div>
+                <div class="header-line"></div>
+            </div>
+            <div class="services">
+                <div class="services-item">
+                    <div class="services-image">
+                        <img src="./assets/illustrations/ten.png" alt="image">
+                    </div>
+                    <div class="services-text">
+                        <div class="services-item-header">
+                            Attendant Care
+                        </div>
+                        <div class="services-item-description">
+                            Mofey Home Care LLC provides Attendant care services in Indianapolis and surrounding areas for aging adults and individuals with disabilities.
+                        </div>
+                        <div class="services-item-button">
+                            <button>
+                                <div class="text">
+                                    <a href="services.html">Learn More</a>
+                                </div>
+                                <div class="icon">
+                                    <i class="fa-solid fa-chevron-right"></i>
+                                </div>
+                            </button>
+                        </div>
+                    </div>
+                </div>
+                <div class="services-item image-right">
+                    <div class="services-image">
+                        <img src="./assets/illustrations/six.png" alt="image">
+                    </div>
+                    <div class="services-text">
+                        <div class="services-item-header">
+                            Errand Runner
+                        </div>
+                        <div class="services-item-description">
+                            Seniors often face challenges when it comes to running errands. Therefore, we are able to handle the ask for you.
+                        </div>
+                        <div class="services-item-button">
+                            <button>
+                                <div class="text">
+                                    <a href="services.html">Learn More</a>
+                                </div>
+                                <div class="icon">
+                                    <i class="fa-solid fa-chevron-right"></i>
+                                </div>
+                            </button>
+                        </div>
+                    </div>
+                </div>
+                <div class="services-item">
+                    <div class="services-image">
+                        <img src="./assets/illustrations/seven.png" alt="image">
+                    </div>
+                    <div class="services-text">
+                        <div class="services-item-header">
+                            Home Making Services
+                        </div>
+                        <div class="services-item-description">
+                            With Mofey Home Care LLC, Home making services, you receive the best and most practical assistance with household chores.
+                        </div>
+                        <div class="services-item-button">
+                            <button>
+                                <div class="text">
+                                    <a href="services.html">Learn More</a>
+                                </div>
+                                <div class="icon">
+                                    <i class="fa-solid fa-chevron-right"></i>
+                                </div>
+                            </button>
+                        </div>
+                    </div>
+                </div>
+                <div class="services-item image-right">
+                    <div class="services-image">
+                        <img src="./assets/illustrations/eight.png" alt="image">
+                    </div>
+                    <div class="services-text">
+                        <div class="services-item-header">
+                            Patient Education
+                        </div>
+                        <div class="services-item-description">
+                            Empowering you with information to make informed decisions about your health.
+                        </div>
+                        <div class="services-item-button">
+                            <button>
+                                <div class="text">
+                                    <a href="services.html">Learn More</a>
+                                </div>
+                                <div class="icon">
+                                    <i class="fa-solid fa-chevron-right"></i>
+                                </div>
+                            </button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="testimonial-slider-wrapper">
+            <div class="testimonial-header">
+                <div class="header-text">
+                    Our Happy Clients
+                </div>
+                <div class="header-line"></div>
+            </div>
+            <div class="testimonial-slider">
+                <div class="testimonial-container">
+                    <div class="testimonial-card-wrapper">
+                        <div class="testimonial-card">
+                            <img src="./assets/testimonials/1.jpg" alt="">
+                            <div class="texts">
+                                <div class="name">John Doe</div>
+                                <div class="description">
+                                    Mofey Home Care LLC provided exceptional support and care for my elderly parents. Their compassionate team ensured that my parents felt valued and respected at all times.
+                                </div>
+                            </div>
+                            <div class="date">
+                                2022 May 2
+                            </div>
+                        </div>
+                    </div>
+                    <div class="testimonial-card-wrapper active">
+                        <div class="testimonial-card">
+                            <img src="./assets/testimonials/2.jpg" alt="">
+                            <div class="texts">
+                                <div class="name">Emily Smith</div>
+                                <div class="description">
+                                    I am immensely grateful for the dedicated services offered by Mofey Home Care LLC Their commitment to providing quality healthcare and companionship to the elderly is truly commendable.
+                                </div>
+                            </div>
+                            <div class="date">
+                                2022 May 2
+                            </div>
+                        </div>
+                    </div>
+                    <div class="testimonial-card-wrapper">
+                        <div class="testimonial-card">
+                            <img src="./assets/testimonials/3.jpg" alt="">
+                            <div class="texts">
+                                <div class="name">Sarah Brown</div>
+                                <div class="description">
+                                    Choosing Mofey Home Care LLC for my grandparents was the best decision I made. Their holistic approach to eldercare ensures that every aspect of my grandparents' well-being is taken care of
+                                </div>
+                            </div>
+                            <div class="date">
+                                2022 May 2
+                            </div>
+                        </div>
+                    </div>
+                    <div class="testimonial-card-wrapper">
+                        <div class="testimonial-card">
+                            <img src="./assets/testimonials/4.jpg" alt="">
+                            <div class="texts">
+                                <div class="name">David Johnson</div>
+                                <div class="description">
+                                    The team at Mofey Home Care LLC goes above and beyond to meet the needs of elderly individuals. Their professionalism and kindness have made a significant difference in the lives of many.
+                                </div>
+                            </div>
+                            <div class="date">
+                                2022 May 2
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <button class="prev" onclick="prevTestimonial()">
+                    <i class="fa-solid fa-chevron-left"></i>
+                </button>
+                <button class="next" onclick="nextTestimonial()">
+                    <i class="fa-solid fa-chevron-right"></i>
+                </button>
+                <div class="testimonial-dots-container">
+                    <span class="testimonial-dot"></span>
+                    <span class="testimonial-dot active"></span>
+                    <span class="testimonial-dot"></span>
+                    <span class="testimonial-dot"></span>
+                </div>
+            </div>
+        </div>
+
+    </main>
+
+    <footer class="footer">
+        <div class="left">
+            &copy; 2024 • MHCL • All Rights Reserved
+        </div>
+        <div class="right">
+            <div class="social">
+                <a href="https://instagram.com/tenet001" target="_blank">
+                    <i class="fa-brands fa-facebook"></i>
+                </a>
+            </div>
+            <div class="social">
+                <a href="https://instagram.com/tennet001" target="_blank">
+                    <i class="fa-brands fa-instagram"></i>
+                </a>
+            </div>
+            <div class="social">
+                <a href="https://instagram.com/tennet001" target="_blank"><i
+                        class="fa-brands fa-linkedin"></i></a>
+            </div>
+            <div class="social">
+                <a href="https://instagram.com/tennet001" target="_blank">
+                    <i class="fa-brands fa-twitter"></i>
+                </a>
+            </div>
+        </div>
+    </footer>
+
+    <div class="nav-touch-close" id="nav-tc-js"></div>
+
+    <script src="scripts/script.js"></script>
+
+</body>
+
+</html>

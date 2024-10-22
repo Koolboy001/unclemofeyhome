@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mofey Home Care LLC </title>
+
+    <!-- Link to the style.css -->
+    <link rel="stylesheet" type="text/css" href="./styles/style.css">
+
+    <!-- Link to the favicon -->
+    <link rel="icon" href="mofeylogo.png" type="image/png" sizes="32x32">
+
+    <!-- Link to add the Font Awesome icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css">
+
+    <!-- Link to add the boxicons -->
+    <link rel="stylesheet" href="https://unpkg.com/boxicons@latest/css/boxicons.min.css">
+</head>
+
+<body>
+
+    <header>
+        <a href="./index.html" class="logo">
+            <img src="mofeylogo.png" alt="">
+            <div class="text">
+                MHCL
+            </div>
+        </a>
+        <nav class="navbar">
+            <ul>
+                <li class="nav-item"><a href="./about.html">About</a></li>
+                <li class="nav-item"><a href="./services.html">Services</a></li>
+                <li class="nav-item"><a href="./volunteer.html">Volunteer</a></li>
+                <li class="nav-item"><a href="./resources.html" class="active">Resources</a></li>
+            </ul>
+        </nav>
+        <div class="contact">
+            <a href="./contact.html" class="active">
+                <i class="fa-solid fa-envelope"></i>
+                <div class="text">
+                    Contact
+                </div>
+            </a>
+        </div>
+        <div class="menu-icon">
+            <i class="fa-solid fa-bars menu-icon-i"></i>
+            <!-- <i class="fa-solid fa-x"></i> -->
+        </div>
+    </header>
+
+    <main class="resources">
+        <!-- Resources Section -->
+        <div class="resources-section" id="resources">
+            <div class="header">
+                <div class="header-text">
+                    Volunteer
+                </div>
+                <div class="header-line"></div>
+            </div>
+            <p class="p-top">Find helpful information and links to external resources relevant to elderly homeless individuals in
+                Indianapolis.</p>
+
+            <!-- Resource Cards -->
+            <div class="resource-cards">
+                <div class="card">
+                    <img src="./assets/resources/givernment-assistance.jpg" alt="Government Assistance">
+                    <h3>Government Assistance</h3>
+                    <p>Learn about government programs and services available to support elderly homeless individuals in
+                        Indianapolis.</p>
+                    <a href="#" target="_blank">Learn More</a>
+                </div>
+                <div class="card">
+                    <img src="./assets/resources/healthcare-facilities.jpg" alt="Healthcare Facilities">
+                    <h3>Healthcare Facilities</h3>
+                    <p>Find a list of healthcare facilities in Indianapolis that provide services to elderly homeless
+                        individuals.</p>
+                    <a href="#" target="_blank">Find a Facility</a>
+                </div>
+                <div class="card">
+                    <img src="./assets/resources/legal-services.jpg" alt="Legal Services">
+                    <h3>Legal Services</h3>
+                    <p>Get access to legal services and resources that can help elderly homeless individuals in Indianapolis.
+                    </p>
+                    <a href="#" target="_blank">Learn More</a>
+                </div>
+                <div class="card">
+                    <img src="./assets/resources/community-resources.jpg" alt="Community Resources">
+                    <h3>Community Resources</h3>
+                    <p>Discover community resources and organizations that provide support to elderly homeless
+                        individuals in Indianapolis.</p>
+                    <a href="#" target="_blank">Explore Resources</a>
+                </div>
+            </div>
+
+            <!-- Resource Links -->
+            <div class="useful-links">Useful Links</div>
+            <ul>
+                <li><a href="https://mohp.gov.np/en" target="_blank">Ministry of Health and Population, Indianapolis</a></li>
+                <li><a href="https://healthhomecareIndianapolis.com.np/" target="_blank">Elderly Care Organizations in Indianapolis</a></li>
+                <li><a href="https://www.swc.org.np/" target="_blank">Indianapolis Government's Social Welfare Council</a></li>
+            </ul>
+
+            <!-- Call to Action -->
+            <div class="cta">
+                <h3>Get Involved</h3>
+                <p>Join us in making a difference in the lives of elderly homeless individuals in Indianapolis.</p>
+                <a href="#" class="btn">Volunteer Now</a>
+            </div>
+        </div>
+    </main>
+
+    <footer class="footer">
+        <div class="left">
+            &copy; 2024 • MHCL • All Rights Reserved
+        </div>
+        <div class="right">
+            <div class="social">
+                <a href="https://instagram.com/tenet001" target="_blank">
+                    <i class="fa-brands fa-facebook"></i>
+                </a>
+            </div>
+            <div class="social">
+                <a href="https://instagram.com/tennet001" target="_blank">
+                    <i class="fa-brands fa-instagram"></i>
+                </a>
+            </div>
+            <div class="social">
+                <a href="https://instagram.com/tennet001" target="_blank"><i
+                        class="fa-brands fa-linkedin"></i></a>
+            </div>
+            <div class="social">
+                <a href="https://instagram.com/tennet001" target="_blank">
+                    <i class="fa-brands fa-twitter"></i>
+                </a>
+            </div>
+        </div>
+    </footer>
+
+    <div class="nav-touch-close" id="nav-tc-js"></div>
+
+    <script src="scripts/script.js"></script>
+    <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/@emailjs/browser@3/dist/email.min.js">
+    </script>
+    <script type="text/javascript">
+        (function () {
+            emailjs.init("mg50UONVh0u7USsVq");
+        })();
+    </script>
+
+</body>
+
+</html>

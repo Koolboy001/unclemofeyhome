@@ -1,0 +1,168 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mofey Home Care LLC </title>
+
+    <!-- Link to the style.css -->
+    <link rel="stylesheet" type="text/css" href="./styles/style.css">
+
+    <!-- Link to the favicon -->
+    <link rel="icon" href="mofeylogo.png" type="image/png" sizes="32x32">
+
+    <!-- Link to add the Font Awesome icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css">
+
+    <!-- Link to add the boxicons -->
+    <link rel="stylesheet" href="https://unpkg.com/boxicons@latest/css/boxicons.min.css">
+</head>
+
+<body>
+
+    <header>
+        <a href="./index.html" class="logo">
+            <img src="mofeylogo.png" alt="">
+            <div class="text">
+                MHCL
+            </div>
+        </a>
+        <nav class="navbar">
+            <ul>
+                <li class="nav-item"><a href="./about.html">About</a></li>
+                <li class="nav-item"><a href="./services.html">Services</a></li>
+                <li class="nav-item"><a href="./volunteer.html" class="active">Volunteer</a></li>
+                <li class="nav-item"><a href="./resources.html">Resources</a></li>
+            </ul>
+        </nav>
+        <div class="contact">
+            <a href="./contact.html">
+                <i class="fa-solid fa-envelope"></i>
+                <div class="text">
+                    Contact
+                </div>
+            </a>
+        </div>
+        <div class="menu-icon">
+            <i class="fa-solid fa-bars menu-icon-i"></i>
+            <!-- <i class="fa-solid fa-x"></i> -->
+        </div>
+    </header>
+
+    <main class="volunteer">
+        <div class="volunteer-section">
+            <div class="header">
+                <div class="header-text">
+                    Volunteer
+                </div>
+                <div class="header-line"></div>
+            </div>
+            <div class="volunteer-description">
+                <p class="p-top">At Mofey Home Care LLC , we rely on dedicated volunteers to help us fulfill our mission of
+                    providing compassionate care to elderly homeless individuals. Whether you're interested in providing
+                    direct care, organizing events, or fundraising, there are plenty of ways to get involved and make a
+                    difference.</p>
+                <div class="volunteer-header">How You Can Help:</div>
+                <ul>
+                    <li>Direct Care: Assist with daily activities, provide companionship, and offer emotional support to
+                        our residents.</li>
+                    <li>Event Organization: Help plan and coordinate social activities, workshops, and special events
+                        for our residents.</li>
+                    <li>Fundraising: Organize fundraising campaigns, events, and initiatives to support our programs and
+                        services.</li>
+                    <li>Administrative Support: Assist with office tasks, data entry, and communication to ensure smooth
+                        operations.</li>
+                    <li>Community Outreach: Raise awareness about our organization, recruit volunteers, and engage with
+                        the community.</li>
+                </ul>
+                <p class="p-bottom">No matter your skills, interests, or availability, there's a place for you in our volunteer team.
+                    Join us in making a positive impact in the lives of elderly homeless individuals.</p>
+            </div>
+        </div>
+
+        <div class="our-team">
+            <div class="title">
+                <div class="title-text">
+                    Our Volunteers
+                </div>
+                <div class="line"></div>
+            </div>
+            <div class="volunteers">
+                <div class="team-member">
+                    <img src="./assets/team/Kaushal.jpg" alt="">
+                    <div class="texts">
+                        <div class="name">
+                            Kaushal Juan
+                        </div>
+                    </div>
+                </div>
+                <div class="team-member">
+                    <img src="./assets/team/1 (1).jpg" alt="">
+                    <div class="texts">
+                        <div class="name">
+                            Arpos Leonard
+                        </div>
+                    </div>
+                </div>
+                <div class="team-member">
+                    <img src="./assets/team/1 (4).jpg" alt="">
+                    <div class="texts">
+                        <div class="name">
+                            Andrew Leonard
+                        </div>
+                    </div>
+                </div>
+                <div class="team-member">
+                    <img src="./assets/team/pappu.jpg" alt="">
+                    <div class="texts">
+                        <div class="name">
+                            Pappu Joseph
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </main>
+
+    <footer class="footer">
+        <div class="left">
+            &copy; 2024 • MHCL • All Rights Reserved
+        </div>
+        <div class="right">
+            <div class="social">
+                <a href="https://instagram.com/tenet001" target="_blank">
+                    <i class="fa-brands fa-facebook"></i>
+                </a>
+            </div>
+            <div class="social">
+                <a href="https://instagram.com/tennet001" target="_blank">
+                    <i class="fa-brands fa-instagram"></i>
+                </a>
+            </div>
+            <div class="social">
+                <a href="https://instagram.com/tennet001" target="_blank"><i
+                        class="fa-brands fa-linkedin"></i></a>
+            </div>
+            <div class="social">
+                <a href="https://instagram.com/tennet001" target="_blank">
+                    <i class="fa-brands fa-twitter"></i>
+                </a>
+            </div>
+        </div>
+    </footer>
+
+    <div class="nav-touch-close" id="nav-tc-js"></div>
+
+    <script src="scripts/script.js"></script>
+    <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/@emailjs/browser@3/dist/email.min.js">
+    </script>
+    <script type="text/javascript">
+        (function () {
+            emailjs.init("mg50UONVh0u7USsVq");
+        })();
+    </script>
+
+</body>
+
+</html>
